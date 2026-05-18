@@ -1,0 +1,7 @@
+---
+- name: POC Compute Image Provisioning
+  hosts: localhost
+  tasks:
+    - name: Print Status Message
+      ansible.builtin.debug:
+        msg: "Successfully executed Ansible playbook from the embedded Submodule folder!"
