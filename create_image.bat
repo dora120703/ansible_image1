@@ -1,0 +1,3 @@
+@echo off
+echo [CI SCRIPT] Commencing virtual machine image compilation...
+echo [CI SCRIPT] Successfully generated Compute Image: %IMAGE_NAME% inside zone %ZONE%!
